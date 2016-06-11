@@ -17,28 +17,23 @@ git clone https://github.com/ru-faraon/Yandex-Disk/blob/master/yad.sh
 gpg2 --gen-key
 
 # Настройки
-Yandex.Disk token.
 
+# Yandex.Disk token.
 token='xxxxxxxxxxxxxxxxxxxxxx'
 
-Отправить по электронной почте необходимо войти.
-
+# Отправить по электронной почте необходимо войти.
 mailLog='yad@ya.ru'
 
-Отправить по электронной почте только когда ошибка.
-
+# Отправить по электронной почте только когда ошибка.
 mailLogErrorOnly=false
 
-Целевой каталог. Убедитесь, что каталог существует.
-
+# Целевой каталог. Убедитесь, что каталог существует.
 backupDir='LINUX-BACKUP'
 
-Имя файла журнала.
-
+# Имя файла журнала.
 logFile=yad.log
 
-GPG шифрование UID.
-
+# GPG шифрование UID.
 GPGENCRYPTUID='xxxxxxxx'
 
 # Применение
