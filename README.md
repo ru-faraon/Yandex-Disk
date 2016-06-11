@@ -9,6 +9,12 @@ Needs only curl (no webdav or yandex client)
 GPG encryption
 email notification
 
+# Подготовка
+
+Необходимо получить TOKEN для работы скрипта с вашим Диском перейдите по ссылке https://oauth.yandex.ru/authorize?response_type=token&client_id=59ab22ca3f794a3b922935e2f8692985 и разрешите доступ к вашим данным. Скопируйте полученные данные в файл.
+
+git clone https://github.com/ru-faraon/Yandex-Disk/blob/master/yad.sh
+./yad.sh
 
 # Usage
 
