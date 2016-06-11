@@ -2,7 +2,7 @@
 Simpe bash script for backup files to Yandex.Disk via API
 
 
-Features
+# Features
 
 OAuth authorization
 Needs only curl (no webdav or yandex client)
@@ -10,9 +10,9 @@ GPG encryption
 email notification
 
 
-Usage
+# Usage
 
-Copy file to Yandex Disk:
+# Copy file to Yandex Disk:
 
 ./yad.sh -f /path/to/file/file_name
 Encrypt and copy file to Yandex Disk:
