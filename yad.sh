@@ -1,26 +1,23 @@
 #!/bin/bash
 
-# Mail.ru ОБЛАКО пока только скачать.
-# wget https://desktopcloud.cdnmail.ru/linux/amd64/cloud
-
 # ---------- SETTINGS -------------
 
 # Yandex.Disk token
 token=''
 
-# Target directory. Be sure, that the directory exists.
+# Целевой каталог. Убедитесь, что каталог существует.
 backupDir='LINUX-BACKUP'
 
-# Logfile name
+# Имя файла журнала.
 logFile=yad.log
 
-# GPG encryption UID
+# GPG шифрование UID.
 GPGENCRYPTUID=''
 
-# Send log to email
+# Отправить по электронной почте необходимо войти.
 mailLog=''
 
-# Send email error only
+# Отправить по электронной почте только ошибка.
 mailLogErrorOnly=false
 
 # ---------- FUNCTIONS ------------
