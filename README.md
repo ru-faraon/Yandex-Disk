@@ -64,3 +64,9 @@ git clone https://github.com/ru-faraon/Yandex-Disk/blob/master/yad.sh
 
 # Скопируйте файл в ЯНДЕКС.ДИСК и уведомлять пользователя об ошибках:
 ./yad.sh -f /path/to/file/file_name -m user@localhost -e
+
+# В планах на vail.ru cloud
+# Пока только скачать сам клиент
+wget https://desktopcloud.cdnmail.ru/linux/amd64/cloud
+# Запуск
+./cloud
